@@ -1,0 +1,83 @@
+body{
+    background-color: lightgray;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .button{
+        border: 4px black solid;
+        font-size: 3em;
+        width: 30%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+.centered{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+.image{
+ padding: 100px 0;
+ background: url("ariege.jpg");
+ background-size: cover;
+ background-position: center;
+ width: 1000px;
+ height: 400px;   
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+img{
+    border: 5px rgba(0, 0, 0, 0.8) solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    color: rgb(54, 104, 144);
+    font-size: 3em;
+    border-bottom: 4px rgb(54, 104, 144) dashed;
+    border-top: 4px rgb(54, 104, 144) dashed;
+    border-right: 4px rgb(54, 104, 144) dashed;
+    border-left: 4px rgb(54, 104, 144) dashed;
+    font-family: "Arial black", Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(54, 104, 144);
+    font-size: 2.75em;
+    border-bottom: 4px rgb(54, 104, 144) dashed;
+    border-top: 4px rgb(54, 104, 144) dashed;
+    border-right: 4px rgb(54, 104, 144) dashed;
+    border-left: 4px rgb(54, 104, 144) dashed;
+    font-family: "Arial black", Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+ul{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+a{
+    color: steelblue;
+}
+    a:hover{
+        color: rgb(54, 104, 144);
+    }
+    a:active{
+        color: rgb(255, 69, 106);
+    }
+strong{
+    color: steelblue;
+}
+
+
